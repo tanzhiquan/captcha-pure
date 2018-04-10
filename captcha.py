@@ -221,6 +221,6 @@ class Captcha(object):
 captcha = Captcha.instance()
 
 if __name__ == '__main__':
-
+    # 使用到的三个字体文件,自行下载并放入当前目录的fonts目录下
     print captcha.generate_captcha()
 
